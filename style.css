@@ -1,0 +1,717 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; font-family: 'Poppins', sans-serif,cursive,fantasy;
+}
+html{
+	height: 100%;
+}
+.wraper{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: auto;
+	
+	
+}
+/*********CSS FOR SOCIAL ICONS STARTS****************/
+
+.widget{
+	margin:0;
+	color: white;
+}
+.widget ul{
+	list-style: none;
+	display: flex;
+	/*padding: 0 5px 0 5px;
+	margin-left:20px;*/
+}
+.widget ul li{
+	border-radius: 20px;
+	border: 1px solid blue;
+	box-sizing: border-box;
+    margin: 2px 5px 15px 3px;
+	transform: translate(+230%,+40%);
+	text-align: center;
+	display: flex;
+	/*padding:0 5px;
+*/
+}
+.widget ul li a{
+	color: white;
+	font-size: 12px;
+	/*margin:5;
+	line-height: 5px;*/
+    border-radius: 20%;
+	box-sizing: border-box;
+    /*box-shadow: 2px 2px 3px #999;*/
+    margin: 2px 7px 2px 10px;  
+    
+}
+.widget ul li:hover{
+	background: blue;
+}
+.center_para h4{
+	font-size: 12px;
+	color: #fff;
+	margin-top: 20px;
+	
+	
+
+	 /*transform: translate(+0%,-80%);*/
+	/*padding-top: 15px;*/
+   /* transform: translate(+20%,-50%);*/
+}
+
+.doners a{
+	 background: white;
+	 font-size: 10px;
+     text-decoration: none;
+     /*display: inline-block;*/
+     text-align: center;
+     line-height:1;
+     height: 25px;
+   /*  margin: 2px;*/
+	/*transform: translate(-100%,+40%);*/
+
+
+
+}
+.doners a:hover{
+	background: #15bade;
+}
+/*********CSS FOR SOCIAL ICONS ENDS****************/
+
+/*********CSS FOR anavbar stars****************/
+
+.logo-nav img{
+	height: 40px;
+	margin-left: 120px;
+	background: #f7f8fa!important;
+	color: #f7f8fa!important;
+}
+.my-navbar{
+	background-color: #f7f8fa;
+    width: 100%!important;
+	/*box-shadow: 0 20px 20px rgba(0,0,0,0.1);*/
+
+
+}
+.nav-item,.dropdown-menu:{
+	animation-duration: 500ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+.nav-item,.nav-link{
+	color: #000;
+	font-size: 13px;
+	font-family:  'Merriweather', serif;
+	letter-spacing: 2px;
+	margin:0px 2px;
+	text-align: center;
+	margin: 1px;
+	z-index: 9999;
+}
+.nav-link:hover{
+	background: #316DC3;
+	color: white!important;
+	border-radius: 20px;
+	transform: translateX(-2px);
+    transition: 0.5s;
+
+}
+.mega-menu{
+	background-color: transparent;
+}
+/*.dropdown:hover,.dropdown-menu{
+	display: block;
+
+}*/
+.dropdown-menu{
+	border: none;	
+}
+nav ul li:hover ul {
+	display: block;
+	color: white;
+	
+}
+/*nav ul li ul:hover ul {
+	display: block;
+	
+}*/
+.dropdown-submenu .dropdown-menu:hover {
+	display: block;
+	
+}
+
+.dropdown-item{
+	transform-origin: center;
+	font-size: 13px;
+	background-color: #f7f8fa;
+	line-height: 1.6;
+	font-family:'Merriweather', serif;
+	font-weight: lighter;
+	color: black;
+}
+.dropdown-item:hover{
+	background: #fff;
+
+}
+
+.dropdown-item:hover{
+	background: #316DC3;
+	color: white;
+	display: block;
+}
+.dropdown:hover{
+	color: white;
+}
+.dropdown-submenu {
+  position: relative;
+  display: block;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .2em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+
+.dropdown-submenu .dropdown-menu  a:hover{
+	transform: translateX(+2px);
+    transition: 0.5s;
+    display: block;
+    color: white!important;
+	
+}
+.dropdown-menu  a:hover{
+	transform: translateX(+2px);
+    transition: 0.5s;
+	
+}
+
+@keyframes rotate{
+	0%(transform: perspective: (600px) rotatey(90deg); transform-origin: center;)
+	100%(transform: perspective: (600px) rotatey(90deg); transform-origin: center;)
+}
+nav ul li:nth-of-type(1){
+	animation-delay: 0s;
+}
+nav ul li:nth-of-type(2){
+	animation-delay: 2s;
+}
+nav ul li:nth-of-type(3){
+	animation-delay: 3s;
+}
+nav ul li:nth-of-type(4){
+	animation-delay: 4s;
+}
+nav ul li:nth-of-type(5){
+	animation-delay: 5s;
+}
+nav ul li:nth-of-type(6){
+	animation-delay: 6s;
+}
+
+/*********CSS FOR anavbar  ENDS****************/
+
+/*********CSS FOR SLIDER STARS****************/
+
+.marq{
+	margin-top: 5px;
+	background-color: 
+	#316DC3; color: #fff;
+}
+/*********CSS FOR SLIDER ENDS****************/
+
+
+
+/*********CSS FOR INTRODUCTION STARTS****************/
+
+.img-intro{
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.para{
+	font-size: 16px;
+	text-align: center;
+	font-family: sans-serif;
+	padding:0 120px;
+	color: #bbb;
+	font-family:'Merriweather', serif;
+	font-weight: bold;
+/* box-sizing:border-box;
+color:rgb(102, 102, 102);
+display:block;
+font-family:"Open Sans", sans-serif;
+font-size:14px;
+height:auto;
+line-height:26.6px;
+margin-block-end:10px;
+margin-block-start:20px;
+margin-bottom:10px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-left:170px;
+margin-right:170px;
+margin-top:50px;
+text-align:justify;
+text-size-adjust:100%;
+visibility:visible;
+width:1000px;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);*/
+/*.container-main{
+width: 100%!important;
+height: auto;
+padding-top: 5px;
+margin: 10px;
+margin-top: 170px;
+background: #f7f8fa;
+	
+}
+.row-main,.intro{
+	text-align: center;
+	font-size: 40px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: blue;
+
+}
+
+.row-main,
+  */
+}
+
+/*********CSS FOR INTRODUCTION ENDS****************/
+
+
+
+/*********CSS FOR INTRODUCTION ENDS****************/
+
+
+/*********CSS FOR INTRODUCTION ENDS****************/
+
+
+/********************CSS for client feedback START **************/
+
+.happyclient{
+    height: 100vh;
+    width: 100%;
+    padding: 80px 0; 
+   
+}
+.head{
+       text-align: center;
+       margin-top: 60px;
+       font-family: 'Merriweather', serif;
+       font-weight: 600;
+       line-height: 1;
+       margin-bottom: 20px;
+      
+
+}
+.container-work{
+	background: #f7f8fa;
+	margin-bottom: 50px;
+
+}
+.box{
+    text-align: center;
+    box-shadow: 20 5px 10px 20 rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0px;
+    transition: 0.3s ease;
+    background: white;
+    margin: 14px;
+    height: 200px;
+    padding:0px;
+    margin: 30px;
+
+}
+.box h2{
+	font-size: 20px;
+	 font-family: 'Merriweather', serif;
+	  color: #316DC3;
+	 margin-top: 20px;
+}
+
+.column:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+    transform: translateY(-8px);
+    transition: 0.5s;
+    
+}
+.box:hover{
+    background: #16c9f6;
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px!important;
+}
+.carousel-indicators li{
+    background-color: white!important;
+    
+}
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+
+/********************CSS for WHAT WE ARE DOING  ENDs**************/
+
+
+
+/********************CSS for MISSION AND UPCOMING PROJECTS STARTS**************/
+.mission{
+	width: 100%;
+	height: auto;
+	background: white!important;
+
+}
+.marquee{
+	 margin-bottom: 20px; 
+	display: inline-block;
+	text-align: justify;
+	color: #bbb!important;
+
+}
+.Upcoming-events h3{
+	margin: 70px 0px 10px 0px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #eeeeee !important;
+}
+.Upcoming-events p{ /******underlinr border*******/
+	border-bottom: 2px #427900 solid; 
+	position: relative;
+	top: -11.5px; 
+	width: 50px; 
+	margin-bottom: 20px;
+	 display: inline-block;"
+}
+.media{
+	margin-left: 10px;
+	display: flex;
+	color: black;
+	height: 70px;
+	width: 160px;
+	column-gap: 90px;
+	padding: 15px 5px; 
+	margin-top: 15px; 
+     
+}
+.media img{
+	margin-left: 20px
+	margin-top:10px;
+	padding-left: 20px;
+	font-size: 15px;
+
+}
+.heading h3{
+	font-size: 30px;
+	font-family:  'Merriweather', serif;
+	color: #316DC3;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+.up-events h3{
+	font-size: 30px;
+	font-family:  'Merriweather', serif;
+	color: #316DC3;
+	font-style: italic;
+	font-weight: bold;
+	/*transform: translate(+5%,-20%);*/
+}
+.up-events,.line-bottom{
+	/*transform: translate(+0%,-120%);*/
+}
+.Events-para{
+	margin-left: 20px;
+	color: #bbb!important;
+	margin-top: 15px;
+
+}
+.media-body h4{
+	font-size: 18px!important;
+	color:  #316DC3;
+	font-family:  'Merriweather', serif;
+	font-weight: bold;
+    text-align: center;
+    padding-left: 30px; 
+    margin-top: 5px;
+	 
+}
+.Upcoming-events{
+
+}
+
+/********************CSS for MISSION AND UPCOMING PROJECTS ENDs**************/
+
+
+/**********IMAGE GALLERY STAR*****************/
+.gallery{
+	width: 100%;
+	height: 400px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background: white!important;
+}
+.head-img{
+	text-align: center;
+	color: blue;
+	margin-left: 180px;
+
+}
+.imgs{
+	 margin-left: 0px;
+	 padding-top: 20px;
+	 letter-spacing: 0px;
+	 border-radius: 2px;
+	 margin: 0px;
+	
+}
+.imgs:hover{
+	opacity: 1;
+	transform: translateY(-8px);
+    transition: 0.5s;
+    background: lightblue;
+}
+
+
+/**********IMAGE GALLERY STAR*****************/
+.img-gallery{
+	width: 100%;
+	height: auto;
+
+}
+.gal-heading{
+	margin-top: 70px!important;
+}
+/*.gallery-imgage img{
+	margin-left: 50px;
+}
+.gal-icons{
+	margin-left: 50px;
+}*/
+
+/**********IMAGE GALLERY STAR*****************/
+/********************CSS for FOOTER  STARTS**************/
+.footer{
+	background: #25272e;
+	width: 100%;
+	height: auto;
+}
+.container ul{
+	color: white;
+	margin-top: 20px;
+}
+.list-inline li i{
+	color: green;
+}
+.list-inline li{
+	
+	list-style: none;
+	/*line-height:1.2;*/
+	/*transform: translate(+5%,-200%);*/
+}
+.usefull-links ul li{
+    list-style: none;
+   
+}
+.usefull-links ul li a{
+	 color: #fff;
+    text-decoration: none;
+}
+.usefull-links ul li a:hover{
+	color: aqua;
+	transform: translateY(-18px);
+    transition: 0.5s;
+}
+/************SOCIAL ICONS STARTS (FOOTER-ICONS)*************/
+.social-footer ul{
+	transform: translate(+12%,-30%);
+	display: flex;
+
+}
+.social-footer ul li{
+	  list-style: none;
+	  margin: 2px 5px;
+      border: 10px solid blue;
+      border-radius: 50%;
+      /*width: 30px;
+      height:30px;*/
+}
+.social-footer ul li .fa{
+     font-size: 15px;
+     color: white;
+     transition: 0.5s;
+}
+.social-footer ul li a{
+	 position: relative;
+      display: block;
+      background: #316DC3;
+      text-align: center;
+     
+}
+.social-footer ul li a:hover{
+	transform: translateY(-8px);
+    transition: 0.5s;
+	background: red;
+}
+.list-inline ul li{
+	line-height: 1.6;
+	font-size: 12px;
+	color: #bbb;
+}
+.usefull-links ul li a{
+	font-size: 14px;
+	font-family: 'Merriweather', serif;
+	margin-top: 20px;
+	color: #bbb;
+}
+
+/************SOCIAL ICONS END*************/
+
+/********************CSS for FOOTER BOTTOM STARTS**************/
+.footer-bottom{
+	width: 100%;
+	background:#316DC3;
+	height: 35px;
+}
+/********************CSS for FOOTER BOTTOM ENDS**************/
+
+/****big landscape,laptop,tablets and desktop*****
+@media(min-width: 1200px){
+
+}*/
+
+/*****landscape,,tablets,low resolution,laptop and desktop*****/
+/*/*@media(max-width: 990px){
+      .img-nav{
+    width: 230px;
+    text-align: center;
+}
+     .menu_list{
+     	width: 100%;
+     	text-align: left;
+     }
+      .menu_list ul{
+      	opacity: 0;
+      	visibility: hidden;
+      }
+      #iconbar{
+      	opacity: 1;
+      	visibility: visible;
+      }
+      .menu_list.responsive{
+      	width: 100%!important;
+      	height: 80vh!important;
+      	background-color: black;
+      	position: relative;
+      	z-index: 1111;
+      }
+      .menu_list.responsive ul{
+      	opacity: 1;
+      	visibility: visible;
+      }
+      .menu_list.responsive ul li{
+      	float: none;
+      	display: block;
+      	text-align: center;
+      }
+}
+
+
+/*****portrate tablets, e-readers and kindles*****/
+/*@media(max-width: 800px){
+	  
+}*/
+
+
+/*****mobile phones******/
+
+/*@media(max-width: 560px){
+	.container-main{
+width: 100%!important;
+height: auto;
+padding-top: 150px;
+display: block;
+text-align: center;
+
+	
+}
+.row-main,.intro{
+	text-align: center;
+	font-size: 40px;
+	display: block;
+	margin-right: 90%;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: blue;
+	margin-left: 0px;
+	margin-top: 20px;
+
+}
+.row-main,.img-intro{
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 20px;
+	display: block;
+	margin-right: 90%;
+}
+.row-main,.para p{
+text-align: center;
+	font-size: 40px;
+	display: block;
+	margin-right: 50%;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: blue;
+	margin-left: 0px;
+	margin-top: 20px;
+
+}
+	  
+}*/
+/*****smartphones, andriod phone and land scap-phones******/
+/*@media(max-width: 600px){
+          .img-nav{
+    width: 230px;
+    text-align: center;
+}	
+}*/
+
+
+
+/********smartphones, andriod phone and land scap-phone 480*320*****/
+
+/*@media(max-width: 480px){
+	     .img-nav{
+    width: 230px;
+    text-align: center;
+}
+}*/*/*/
+
+
+/********************CSS for media QUERY ends**************/
